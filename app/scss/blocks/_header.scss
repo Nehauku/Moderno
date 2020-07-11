@@ -1,0 +1,85 @@
+.header {
+	// .header__top
+
+	&__top {
+	}
+
+	// .header__top-wrapper
+
+	&__top-wrapper {
+		display: flex;
+		justify-content: space-between;
+		min-height: 90px;
+		align-items: center;
+	}
+
+	// .header__logo
+
+	&__logo {
+	}
+
+	// .header__text
+
+	&__text {
+		margin-left: auto;
+		margin-right: 29px;
+		span {
+			color: $orange;
+		}
+	}
+
+	// .header__phone
+
+	&__phone {
+		color: #546e7a;
+	}
+
+	// .header__box
+
+	&__box {
+		a {
+			color: #fff;
+		}
+	}
+
+	// .header__btn
+
+	&__btn {
+		font-size: 12px;
+		padding: 8px 21px;
+		border-radius: 4px;
+		text-align: center;
+	}
+	&__btn-login {
+		background-color: $green;
+		margin-right: 7px;
+	}
+	&__btn-register {
+		background-color: $orange;
+		padding: 8px 14px;
+	}
+
+	// .header__menu
+
+	&__menu {
+		background-color: $bg;
+		.list {
+			min-height: 60px;
+			display: flex;
+			align-items: center;
+			li + li {
+				margin-left: 38px;
+			}
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.basket {
+}
+.menu {
+}
+.list {
+}
