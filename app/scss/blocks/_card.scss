@@ -7,6 +7,8 @@
 	// .card__img
 
 	&__img {
+		overflow: hidden;
+		transition: 0.4s ease;
 		background: center/cover no-repeat;
 		min-height: 250px;
 		display: block;
