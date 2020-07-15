@@ -2,6 +2,13 @@
 	min-height: 532px;
 	background: center/cover no-repeat;
 	padding-top: 145px;
+	&.search-min {
+		min-height: 230px;
+		padding-top: 57px;
+		.search__wrapper-text {
+			margin-bottom: 23px;
+		}
+	}
 	// .search__wrapper
 
 	&__wrapper {
@@ -10,6 +17,8 @@
 		padding-bottom: 100px;
 		color: #fff;
 		text-align: center;
+	}
+	.search__wrapper.search__wrapper-min {
 	}
 
 	// .search__wrapper-title

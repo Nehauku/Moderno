@@ -6,6 +6,29 @@ body {
 	color: $text;
 }
 
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.page-content {
+	background-color: $grey;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
