@@ -1,6 +1,8 @@
 $(function () {
 	let mixer = mixitup('.products__inner-cards');
+});
 
+$(function () {
 
 	$('.product-slider__wrapper').slick({
 		infinite: true,
@@ -10,12 +12,48 @@ $(function () {
 		arrows: false
 	});
 
+	$(".js-range-slider").ionRangeSlider({
+		type: "double",
+		min: 0,
+		max: 1000,
+		from: 0,
+		to: 600,
+		drag_interval: true,
+		min_interval: null,
+		max_interval: null,
+		prefix: "$"
+	});
+
 	$(".rate-star").rateYo({
 		rating: 5,
 		starWidth: "13px"
 	});
 
+	$('.icon-th-list').click(function () {
+		$('.product-page__items .card').addClass('filter-row');
+		$('.icon-th-list').addClass('active');
+		$('.icon-th-large').removeClass('active')
+	});
+
+
+	$('.icon-th-large').click(function () {
+		$('.product-page__items .card').removeClass('filter-row');
+		$('.icon-th-large').addClass('active');
+		$('.icon-th-list').removeClass('active')
+	});
+
+
+
 
 });
 
+
+
+
+
+
+
+// $(function () {
+
+// });
 
