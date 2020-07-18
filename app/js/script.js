@@ -1,6 +1,3 @@
-$(function () {
-	let mixer = mixitup('.products__inner-cards');
-});
 
 $(function () {
 
@@ -42,9 +39,18 @@ $(function () {
 		$('.icon-th-list').removeClass('active')
 	});
 
+	$('.burger').click(function (event) {
+		$('.burger,.menu').toggleClass('active');
+		$('body').toggleClass('block');
+	});
 
 
 
+});
+
+
+$(function () {
+	let mixer = mixitup('.products__inner-cards');
 });
 
 
