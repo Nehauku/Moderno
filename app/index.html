@@ -141,7 +141,8 @@
 										<li><a href="#">Withdraws</a></li>
 									</ul>
 								</div>
-								<a href="#" class="header__btn header__btn-login header__btn--on">Login</a>
+								<a data-fancybox data-src="#modal" href="javascript:;"
+									class="header__btn header__btn-login header__btn--on">Login</a>
 								<a href="#" class="header__btn header__btn-logout header__btn--off">Logout</a>
 								<a href="#" class="header__btn header__btn-register header__btn--on">Register</a>
 							</div>
@@ -792,6 +793,24 @@
 				© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
 			</div>
 		</footer>
+	</div>
+
+
+
+
+	<div class="modal" id="modal">
+		<form action="#" class="login">
+			<div class="modal__title">LOGIN</div>
+			<div class="modal__wrapper">
+				<label class="modal__user"><input required placeholder="Name" type="text" name="user name"></label>
+				<label class="modal__pass"><input required placeholder="Password" type="password" name="password"></label>
+			</div>
+			<div class="modal__wrapper-btn">
+				<button class="submit" type="submit"> submit</button>
+				<button class="creat" type="button"> Creat An Account?</button>
+			</div>
+			<a href="#">Lost Password?</a>
+		</form>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
