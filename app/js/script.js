@@ -51,9 +51,9 @@ $(function () {
 		$(".tabs-item li").removeClass("active");
 		$(this).addClass("active");
 
-		$(".tab-content-item").hide();
+		$(".tab-content-item,.tab-settings-item").hide();
 
-		$(".tab-content-item").eq(idx).fadeIn();
+		$(".tab-content-item,.tab-settings-item").eq(idx).fadeIn();
 
 	});
 	//tabs
