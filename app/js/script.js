@@ -58,6 +58,9 @@ $(function () {
 	});
 	//tabs
 
+	//form-styler
+	$('input[type="file"], select').styler();
+	//form-styler
 
 
 });
