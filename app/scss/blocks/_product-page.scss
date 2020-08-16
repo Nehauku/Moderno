@@ -29,7 +29,8 @@
 			background-color: transparent;
 		}
 		.card {
-			max-width: 270px;
+			flex-basis: calc(33.33% - 30px);
+			margin-left: 30px;
 		}
 		.card__img {
 			min-height: 180px;
@@ -94,7 +95,7 @@
 	&__items {
 		margin-top: 30px;
 		display: flex;
-		justify-content: space-between;
+		margin-left: -30px;
 		flex-wrap: wrap;
 		.card {
 			transition: all 0.6s ease;
@@ -155,7 +156,7 @@
 			}
 		}
 		.card.filter-row {
-			max-width: 100%;
+			flex-basis: 100%;
 			.card__star {
 				margin-left: auto;
 				margin-right: 30px;
